@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: cassandra
-  name: cassandra
+  name: cassandra-headless-svc
   namespace: dev
 spec:
   selector:
@@ -11,4 +11,4 @@ spec:
   ports:
   - port: 9042
     # targetPort: <Target Port>
-  clusterIP: None  #This makes this servise an headless service. Only accessible by other pods (e.g: access from a webserver to a db server)
+  clusterIP: None  #This makes this service an headless service. Only accessible by other pods (e.g: access from a webserver to a db server)
