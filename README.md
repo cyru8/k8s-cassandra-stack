@@ -10,3 +10,5 @@ Delete the StatefulSet and its Pods -->
 NAME                           TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)        AGE
 cassandra-headless-svc         ClusterIP      None            <none>        9042/TCP       36m -->
 
+<!-- https://vocon-it.com/2018/12/20/kubernetes-local-persistent-volumes/ -->
+
